@@ -26,7 +26,9 @@ h1 {
 
 section {
   height: 500px;
+  padding-bottom: 150px;
 }
+
 .link-btn {
   text-decoration: none;
   background-image: linear-gradient(45deg, lightsalmon, orange);
@@ -34,4 +36,17 @@ section {
   border-radius: 10px;
   color: white;
   font-weight: 700;
+}
+
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgray
+}
+.dream-area{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    
 }
