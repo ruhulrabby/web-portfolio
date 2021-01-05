@@ -53,8 +53,7 @@ p {
   box-shadow: 10px 10px 40px gray;
   border-radius: 5px;
   height: 80%;
-  background-color:white;
-
+  background-color: white;
 }
 
 .exeperience-area {
@@ -74,6 +73,46 @@ p {
   border-image-slice: 1;
 }
 
-footer p{
-    text-align: center;
+footer p {
+  text-align: center;
 }
+
+/******** responsive design for mobile.*/
+
+@media only screen and (max-width: 600px) {
+  .section {
+    display: flex;
+    flex-direction: column;
+  }
+  .half-width {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .dream-area {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .top-banner{
+    display: flex;
+    flex-direction: column;
+  }
+  .dream-area{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .exeperience-area{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.single-experience {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
