@@ -85,8 +85,9 @@ footer p {
     flex-direction: column;
   }
   .half-width {
-    display: flex;
-    flex-direction: column;
+    display: inline-block;
+    padding-bottom: 100px;
+    
   }
 
   .dream-area {
@@ -94,25 +95,22 @@ footer p {
     flex-direction: column;
   }
 
-  .top-banner{
+  .top-banner {
     display: flex;
     flex-direction: column;
   }
-  .dream-area{
+  .dream-area {
     display: flex;
     flex-direction: column;
   }
 
-  .exeperience-area{
+  .exeperience-area {
     display: flex;
     flex-direction: column;
+  }
 
-}
-
-.single-experience {
+  .single-experience {
     display: flex;
     flex-direction: column;
-
+  }
 }
-
-
